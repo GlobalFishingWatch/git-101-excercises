@@ -4,13 +4,7 @@
 {% include 'util.sql.j2' %}
 
 # Some somments from Gaston
-
-#
-# Fishing Events
-#
-# Aggregate position messages that have been annotated with a fishing score into fishing events
-# A fishing event is a sequence of consecutive messages that all have a fishing score of 1.0
-# messages with score=null are ignored
+# This is a comment from Andres
 
 INSERT INTO
   `{{ dest }}` ( event_id,

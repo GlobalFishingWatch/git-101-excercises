@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# This is a comment from Andres
+
 THIS_SCRIPT_DIR="$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )"
 
 display_usage() {
